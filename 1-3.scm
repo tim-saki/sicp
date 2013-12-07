@@ -1,0 +1,8 @@
+(define (square x) (* x x))
+(define (sum_of_squares x y) (+ (square x) (square y)))
+(define (p x y z) (cond ((and (< x y) (< x z)) (sum_of_squares y z))
+			((and (< y z) (< y x)) (sum_of_squares z x))
+			(else (sum_of_squares x y))))
+(print (p 3 4 5))
+(print (p 4 5 3))
+(print (p 5 3 4))
