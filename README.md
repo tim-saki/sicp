@@ -4,6 +4,7 @@
 ## tools
 - [gauche][1]
 - [rlwrap][2]
+
 ### tips
 use better gauche's REPL
 ```
@@ -12,10 +13,8 @@ rlwrap gosh
 ## guide
 - [textbook][3]
 - [video lectures][4]
+
 ## progress
-### chapter1
-8/46
-### chapter2
 ...
 
 [1]: http://practical-scheme.net/gauche/
